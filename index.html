@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+ </head>
+ <body>
+    <nav>
+        <div class="nav-container">
+            <img src="./img/logo_small_final.png"  id="logo">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#donate">Donate</a>
+                </li>
+                <li>
+                    <a href="#about-us">About us</a>
+                </li>
+                <li>
+                    <a href="./learn-more.html">Learn More</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="wrapper home-flex">
+            <h1 class="home-header">Welcome to Our Planet's Future</h1>
+            <p class="home-info">Welcome to <span>Green Challenges</span>, where we're committed to addressing the urgent issue of global warming and creating a sustainable future for generations to come. Explore our website to discover how you can join us in the fight against climate change.</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </section>
+    <section class="donate" id="donate">
+        <div class="donate-wrapper">
+            <h1 class="dontae-header">Donate</h1>
+            <p class="donate-info">Your contribution can make a real difference. By donating to Green Challenges, you're directly supporting projects that combat climate change, promote renewable energy, and protect our planet's biodiversity. Join us in making a positive impact on our environment</p>
+        </div>
+        <div class="donate-form">
+            <fieldset class="donate-fieldset">
+                <div class="names">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="card-type">
+                    <input type="radio" name="debit"><label for="debit">Debit</label>
+                    <input type="radio" name="credit"><label for="credit">Credit</label>
+                </div>
+                <div class="card-number">
+                    <input type="text" class="cardnumber" placeholder="Card Number">
+                </div>
+                <div class="ccv-expire">
+                    <input type="text" placeholder="NN / NN">
+                    <input type="password" placeholder="CCV">
+                </div>
+                <button class="donate-button">
+                    Donate
+                </button>
+            </fieldset>
+        </div>
+    </section>
+    <section class="about-us" id="about-us">
+        <div class="wrapper">
+            <h1>About us</h1>
+            <p>Our Mission and Vision - 
+                At Green Challenges, we believe in the power of collective action to combat global warming. Our mission is to raise awareness, inspire change, and implement sustainable solutions. Learn more about our team, values, and the impact we've made so far.</p>
+            <img src="./img/image4.jpg" alt="/">
+            <button onclick="location.href='./learn-more.html'" class="about-us-buttons blue">Learn More</button>
+            <button onclick="location.href='./contact-us.html'" class="about-us-buttons yellow">Contact us</button>
+        </div>
+    </section>
+ </body>
+ </html>
