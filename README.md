@@ -10,7 +10,7 @@
 * 🟩 Aleksandar Ivailov Lalev - Developer/To create and upgrade html and css code🟩 IX V
 * 🟩 Aleksandar Vladimirov Stanev - Scrum Trainer/Team Leader🟩 IX V
 * 🟩 Boris Zhitomirov Rusinov - Scrum Trainer/Team Leader🟩 IX V
-* 
+  
 ## ❓About Us❓
 * Our Project is based on:
 * 🌎Global warming🌎
