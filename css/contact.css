@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'BigJohnBold';
-    src: url(/BigJohnPRO-Bold.otf);
+    src: url(/fonts/BigJohnPRO-Bold.otf);
 }
 @font-face {
     font-family: 'BigJohnRegular';
-    src: url(/BigJohnPRO-Regular.otf);
+    src: url(/fonts/BigJohnPRO-Regular.otf);
 }
 @font-face {
     font-family: 'BigJohnLight';
-    src: url(/BigJohnPRO-Light.otf);
+    src: url(/fonts/BigJohnPRO-Light.otf);
 }
 
 :root {
